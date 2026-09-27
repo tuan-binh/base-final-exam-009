@@ -19,7 +19,7 @@ public class Event {
     @Column(nullable = false)
     private String eventName;
 
-    @Column(nullable = false, precision = 19, scale = 2)
+    @Column(nullable = false)
     private Double ticketPrice;
 
     @Column(nullable = false)

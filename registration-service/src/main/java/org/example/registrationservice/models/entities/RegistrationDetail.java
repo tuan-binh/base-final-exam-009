@@ -22,10 +22,10 @@ public class RegistrationDetail {
     @Column(name = "quantity", nullable = false)
     private Integer quantity;
 
-    @Column(name = "ticket_price", nullable = false, precision = 19, scale = 2)
+    @Column(name = "ticket_price")
     private Double ticketPrice;
 
-    @Column(name = "line_total", nullable = false, precision = 19, scale = 2)
+    @Column(name = "line_total")
     private Double lineTotal;
 
     @ManyToOne(fetch = FetchType.LAZY)

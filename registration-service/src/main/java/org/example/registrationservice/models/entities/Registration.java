@@ -23,7 +23,7 @@ public class Registration {
     @Column(name = "participant_email", nullable = false)
     private String participantEmail;
 
-    @Column(name = "total_amount", nullable = false, precision = 19, scale = 2)
+    @Column(name = "total_amount")
     private Double totalAmount;
 
     @Enumerated(EnumType.STRING)
